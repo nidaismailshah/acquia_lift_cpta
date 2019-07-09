@@ -1,0 +1,6 @@
+services:
+  acquia_lift_cpta.commands:
+    class: '\Drupal\acquia_lift_cpta\Commands\AcquiaLiftCptaCommands'
+    arguments: ['@entity_type.manager', '@acquia_contenthub.client_manager']
+    tags:
+      - { name: drush.command }

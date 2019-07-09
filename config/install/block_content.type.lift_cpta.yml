@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_lift_cpta
+id: lift_cpta
+label: 'Lift CPTA'
+revision: 0
+description: 'A block type for LIFT CPTA.'

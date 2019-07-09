@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains acquia_lift_cpta.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function acquia_lift_cpta_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the acquia_lift_cpta module.
+    case 'help.page.acquia_lift_cpta':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Lift Critical Path Testing Automation') . '</p>';
+      return $output;
+
+    default:
+  }
+}

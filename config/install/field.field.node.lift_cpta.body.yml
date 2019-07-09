@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+      module:
+        - acquia_lift_cpta
+  config:
+    - field.storage.node.body
+    - node.type.lift_cpta
+  module:
+    - text
+id: node.lift_cpta.body
+field_name: body
+entity_type: node
+bundle: lift_cpta
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+      module:
+        - acquia_lift_cpta
+  config:
+    - field.field.node.lift_cpta.body
+    - node.type.lift_cpta
+  module:
+    - text
+    - user
+id: node.lift_cpta.default
+targetEntityType: node
+bundle: lift_cpta
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

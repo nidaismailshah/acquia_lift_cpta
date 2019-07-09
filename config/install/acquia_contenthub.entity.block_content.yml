@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+      module:
+        - acquia_lift_cpta
+  config:
+    - block_content.type.lift_cpta
+    - field.field.block_content.lift_cpta.body
+  module:
+    - block_content
+    - text
+id: block_content
+bundles:
+  basic:
+    enable_index: false
+    enable_viewmodes: false
+    rendering:
+      default: default
+  lift_cpta:
+    enable_index: true
+    enable_viewmodes: true
+    rendering:
+      default: default

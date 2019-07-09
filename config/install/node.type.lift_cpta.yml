@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - acquia_lift_cpta
+name: 'Lift cpta'
+type: lift_cpta
+description: 'Used for Acquia Lift CPTA'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

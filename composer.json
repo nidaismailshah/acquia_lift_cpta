@@ -1,0 +1,14 @@
+{
+  "name": "drupal/acquia_lift_cpta",
+  "type": "drupal-module",
+  "description": "Lift Critical Path Testing:",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/acquia_lift_cpta",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/acquia_lift_cpta",
+    "source": "http://cgit.drupalcode.org/acquia_lift_cpta"
+  },
+  "require": { }
+}

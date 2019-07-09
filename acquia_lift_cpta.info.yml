@@ -1,0 +1,8 @@
+name: 'Acquia Lift Critical Path Testing Automation'
+type: module
+description: 'Lift - Critical Path Testing Automation.'
+core: 8.x
+package: 'Acquia'
+dependencies:
+#  - acquia_lift
+  - acquia_contenthub
